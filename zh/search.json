@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "教学",
+    "section": "",
+    "text": "R 语言 tidyverse 入门工作坊\n本工作坊面向几乎没有 R 语言基础（但有一定统计学基础）的学员，讲授如何使用 tidyverse 系列包进行数据处理与可视化的基础知识。\n\n\n\n\n版权© 沈明宏 2026"
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "幻灯片",
+    "section": "",
+    "text": "上手 Copilot：在 VS Code 里写 Stata\nHands-on Copilot: Writing Stata in VS Code\n手把手介绍如何在 VS Code 中借助 GitHub Copilot 编写 Stata：配置 Stata 扩展与 Automation 接口，用注释驱动行内补全，并以世界价值观调查（WVS）为例，完整演示从数据清理到回归分析的流程。第15届应用社会科学研究方法研修班《数据分析专题》系列讲座，2026年7月。\n\n\n言出法随：社会科学研究中的 AI 智能体\nSay It, Done: AI Agents in Social Science Research\n系统介绍面向社会学研究的 AI 智能体：智能体是什么、如何检索知识，“加速”与“赋能”的区别，它的能力与边界，以及在研究项目中配置和驾驭智能体的实用指南。第15届应用社会科学研究方法研修班《数据分析专题》系列讲座，2026年7月。\n\n\n\n\n版权© 沈明宏 2026"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "沈明宏",
+    "section": "",
+    "text": "沈明宏现任宾夕法尼亚大学人口研究中心博士后研究员。他的研究主要关注儿童早期发展、教育、城市、人工智能和计算社会科学。他于2025年获得香港科技大学博士学位，在加入宾夕法尼亚大学之前，曾任上海纽约大学博士后研究员。\n\n\n版权© 沈明宏 2026"
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "书籍",
+    "section": "",
+    "text": "Stata 转 R 参考手册\n按主题、Stata 命令或 R 包查阅代码对照。中英文版本使用相同示例，每章均可切换语言。本手册配合 tidystata 使用，与入门教材分别维护。\n\n\nClaude Code 社会科学配置指南\n本书与唐欣阳合作撰写，面向使用 R、Stata 和 Python 的社会科学研究者，介绍 Claude Code（及其他智能体 AI 工具）：从安装和日常使用，到子智能体、MCP 服务器和钩子（hooks）等进阶主题。\n\n\ntidyverse 入门\n本书仍在写作中。与传统教材不同，本书对 tidyverse 和 tidystata 中的函数进行分类，并加以系统讲解。\n\n\n\n\n版权© 沈明宏 2026"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "研究",
+    "section": "",
+    "text": "性别与儿童早期发展\n儿童早期发展中的不平等\n托育机构与儿童早期发展\n公共空间与儿童早期发展\n城市活力\n文化基础设施与心理健康\n计划生育政策"
+  },
+  {
+    "objectID": "research.html#工作论文",
+    "href": "research.html#工作论文",
+    "title": "研究",
+    "section": "",
+    "text": "性别与儿童早期发展\n儿童早期发展中的不平等\n托育机构与儿童早期发展\n公共空间与儿童早期发展\n城市活力\n文化基础设施与心理健康\n计划生育政策"
+  },
+  {
+    "objectID": "research.html#进行中的研究",
+    "href": "research.html#进行中的研究",
+    "title": "研究",
+    "section": "进行中的研究",
+    "text": "进行中的研究\n\n\n中国的高温暴露\n中国的空气污染\n高考\n健康生活方式\n智能体 AI 与社会科学\n机器学习应用"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "软件",
+    "section": "",
+    "text": "Stata 转 R 参考手册\n按主题、Stata 命令或 R 包查阅代码对照。中英文版本使用相同示例，每章均可切换语言。本手册配合 tidystata 使用，与入门教材分别维护。"
+  },
+  {
+    "objectID": "software.html#tidystata",
+    "href": "software.html#tidystata",
+    "title": "软件",
+    "section": "tidystata",
+    "text": "tidystata\n\n这个 R 包（原名 statart）将借鉴 Stata 的功能与 tidyverse 风格的操作相结合，用于探索和整理数据：\n\ntab() 和 fre() 以数据框形式返回频数表。\nsumm() 和 tabstat() 返回描述性统计量。\ncodebook()、variables()、misstable() 和 pwcorr() 用于查看变量、缺失值和相关系数。\nisid()、assert() 和 s_merge() 用于检查主键和合并数据。\n按行运算、std()、as_dummy()、面板滞后和分组等函数用于整理变量。\nfindit() 给出与 Stata 命令对应的 R 写法。\n\n熟悉 Stata？请阅读从 Stata 到 R。安装开发版：pak::pak(\"socimh/tidystata\")。"
+  }
+]

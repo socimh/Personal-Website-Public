@@ -36,11 +36,11 @@ def assemble(public_root, private_root, output):
     output.mkdir(parents=True)
 
     # Only website files enter the deployment; Git, workflows, and source files stay out.
-    public_names = ["assets", "pic", "site_libs", "CNAME", "search.json", ".nojekyll"]
+    public_names = ["assets", "pic", "site_libs", "zh", "CNAME", "search.json", ".nojekyll"]
     public_names.extend(path.name for path in public_root.glob("*.html"))
     for name in public_names:
         copy(public_root / name, output / name)
-    for name in ("cc-guide", "slides"):
+    for name in ("cc-guide", "slides", "stata-to-r"):
         copy(private_root / "docs" / name, output / name)
 
     missing = []

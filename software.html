@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-debeb61dd46b1118d52a1d8c3b24cdae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0c73fba49e9f73e508c1f6c2860d2449.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,28 +108,62 @@ gtag('config', 'G-N6J255MYS8', { 'anonymize_ip': true});
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./books.html"> 
-<span class="menu-text">Books</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="./books.html">
+ <span class="dropdown-text">All books</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.socimh.com/cc-guide/">
+ <span class="dropdown-text">Claude Code guide (in Chinese)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./stata-to-r/index.html">
+ <span class="dropdown-text">Stata → R Reference / Stata 转 R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://socimh.github.io/intro2tidy/">
+ <span class="dropdown-text">Intro to tidyverse (in Chinese)</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./slides.html"> 
-<span class="menu-text">Slides</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Slides</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
+        <li>
+    <a class="dropdown-item" href="./slides.html">
+ <span class="dropdown-text">All slides</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./slides/copilot-stata-en.html">
+ <span class="dropdown-text">Copilot × Stata</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./slides/ai-agents-en.html">
+ <span class="dropdown-text">AI Agents in Social Science</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./chinese.html"> 
-<span class="menu-text">沈明宏</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./zh/index.html"> 
+<span class="menu-text">EN | 中文</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/socimh"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
@@ -151,7 +185,7 @@ gtag('config', 'G-N6J255MYS8', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#statart" id="toc-statart" class="nav-link active" data-scroll-target="#statart">statart</a></li>
+  <li><a href="#tidystata" id="toc-tidystata" class="nav-link active" data-scroll-target="#tidystata">tidystata</a></li>
   </ul>
 </nav>
     </div>
@@ -177,17 +211,25 @@ gtag('config', 'G-N6J255MYS8', { 'anonymize_ip': true});
 </header>
 
 
-<section id="statart" class="level2">
-<h2 class="anchored" data-anchor-id="statart"><a href="https://socimh.github.io/statart/index.html">statart</a></h2>
+<!-- stata-to-r-reference -->
 <div class="entry-card">
-<p>This R package includes some Stata-inspired functions:</p>
+<p><a href="stata-to-r/index.html">Stata to R Reference / Stata 转 R 参考手册</a></p>
+<p><em>A searchable bilingual reference for Stata users working in R</em></p>
+<p>Browse Stata–R comparisons by subject, command or R package. English and Chinese editions share the same examples, with a language switch on each chapter. The reference accompanies <a href="https://socimh.github.io/tidystata/">tidystata</a> and is separate from the introductory textbook.</p>
+</div>
+<section id="tidystata" class="level2">
+<h2 class="anchored" data-anchor-id="tidystata"><a href="https://socimh.github.io/tidystata/">tidystata</a></h2>
+<div class="entry-card">
+<p>This R package (formerly statart) combines Stata-inspired features with tidyverse-style operations for exploring and preparing data:</p>
 <ul>
-<li><code>tab()</code> returns a data frame of the frequency table.</li>
-<li><code>fre()</code> returns a more detailed frequency table.</li>
-<li><code>summ()</code> returns a data frame of the summary statistics. <!-- - `codebook()` returns a codebook. --></li>
-<li><code>row_mean()</code>, <code>row_sum()</code>, etc. generate variables based on row-wise operations.</li>
+<li><code>tab()</code> and <code>fre()</code> return frequency tables as data frames.</li>
+<li><code>summ()</code> and <code>tabstat()</code> return summary statistics.</li>
+<li><code>codebook()</code>, <code>variables()</code>, <code>misstable()</code>, and <code>pwcorr()</code> inspect variables, missing values, and correlations.</li>
+<li><code>isid()</code>, <code>assert()</code>, and <code>s_merge()</code> check keys and merge data.</li>
+<li>Row calculations, <code>std()</code>, <code>as_dummy()</code>, panel lags, and binning help prepare variables.</li>
+<li><code>findit()</code> gives the R equivalent of a Stata command.</li>
 </ul>
-<p>Note: This package will probably be substantially updated and published to CRAN by this June.</p>
+<p>Coming from Stata? See <a href="https://socimh.github.io/tidystata/articles/coming-from-stata.html">Coming from Stata</a>. Install the development version with <code>pak::pak("socimh/tidystata")</code>.</p>
 </div>
 
 
@@ -195,6 +237,9 @@ gtag('config', 'G-N6J255MYS8', { 'anonymize_ip': true});
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>© Minghong Shen 2026</div></div></section></div></main> <!-- /main -->
 <script src="assets/reveal.js"></script>
+
+<script src="assets/lang-toggle.js"></script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -35,6 +35,7 @@ jobs:
           sparse-checkout: |
             docs/cc-guide
             docs/slides
+            docs/stata-to-r
       - name: Assemble and validate website
         run: >-
           python3 .github/scripts/assemble_site.py

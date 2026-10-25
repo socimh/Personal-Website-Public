@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-debeb61dd46b1118d52a1d8c3b24cdae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0c73fba49e9f73e508c1f6c2860d2449.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,28 +108,62 @@ gtag('config', 'G-N6J255MYS8', { 'anonymize_ip': true});
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./books.html"> 
-<span class="menu-text">Books</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-books" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Books</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-books">    
+        <li>
+    <a class="dropdown-item" href="./books.html">
+ <span class="dropdown-text">All books</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.socimh.com/cc-guide/">
+ <span class="dropdown-text">Claude Code guide (in Chinese)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./stata-to-r/index.html">
+ <span class="dropdown-text">Stata → R Reference / Stata 转 R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://socimh.github.io/intro2tidy/">
+ <span class="dropdown-text">Intro to tidyverse (in Chinese)</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./teaching.html" aria-current="page"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./slides.html"> 
-<span class="menu-text">Slides</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Slides</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
+        <li>
+    <a class="dropdown-item" href="./slides.html">
+ <span class="dropdown-text">All slides</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./slides/copilot-stata-en.html">
+ <span class="dropdown-text">Copilot × Stata</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./slides/ai-agents-en.html">
+ <span class="dropdown-text">AI Agents in Social Science</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./software.html"> 
 <span class="menu-text">Software</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./chinese.html"> 
-<span class="menu-text">沈明宏</span></a>
-  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./zh/index.html"> 
+<span class="menu-text">EN | 中文</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/socimh"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
@@ -181,6 +215,9 @@ gtag('config', 'G-N6J255MYS8', { 'anonymize_ip': true});
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Copyright</h2><div class="quarto-appendix-contents"><div>© Minghong Shen 2026</div></div></section></div></main> <!-- /main -->
 <script src="assets/reveal.js"></script>
+
+<script src="assets/lang-toggle.js"></script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

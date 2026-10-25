@@ -11,28 +11,21 @@
     "href": "slides.html",
     "title": "Slides",
     "section": "",
-    "text": "上手 Copilot：在 VS Code 里写 Stata\nHands-on Copilot: Writing Stata in VS Code\nA hands-on introduction to using GitHub Copilot inside VS Code to write Stata — setting up the Stata extension and the Automation bridge, comment-driven inline completions, and a live World Values Survey workflow from data cleaning through regression. Lecture for the 15th Applied Social Science Methods Summer School (SHU), Data Analysis series, July 2026. Presented in Chinese.\n\n\n言出法随：社会科学研究中的 AI 智能体\nSay It, Get It Done: AI Agents in Sociological Research\nA survey of AI agents for sociological research — what agents are and how they retrieve knowledge, the acceleration-versus-empowerment distinction, their capabilities and limits, and a practical guide to configuring and harnessing them in a research project. Lecture for the 15th Applied Social Science Methods Summer School (SHU), Data Analysis series, July 2026. Presented in Chinese.\n\n\n\n\nCopyright© Minghong Shen 2026"
+    "text": "Hands-on Copilot: Writing Stata in VS Code\n上手 Copilot：在 VS Code 里写 Stata (original)\nA hands-on introduction to using GitHub Copilot inside VS Code to write Stata — setting up the Stata extension and the Automation bridge, comment-driven inline completions, and a live World Values Survey workflow from data cleaning through regression. Lecture for the 15th Applied Social Science Methods Summer School (SHU), Data Analysis series, July 2026.\n\n\nSay It, Done: AI Agents in Social Science Research\n言出法随：社会科学研究中的 AI 智能体 (original)\nA survey of AI agents for sociological research — what agents are and how they retrieve knowledge, the acceleration-versus-empowerment distinction, their capabilities and limits, and a practical guide to configuring and harnessing them in a research project. Lecture for the 15th Applied Social Science Methods Summer School (SHU), Data Analysis series, July 2026. The English version is adapted for international audiences.\n\n\n\n\nCopyright© Minghong Shen 2026"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Minghong Shen 沈明宏",
     "section": "",
-    "text": "Minghong Shen is a Postdoctoral Researcher at the Population Studies Center at the University of Pennsylvania. His research broadly focuses on early childhood development, education, urban studies, and computational social science. He received his PhD from the Hong Kong University of Science and Technology in 2025 and was a postdoctoral fellow at NYU Shanghai before joining Penn.\n\n\nCopyright© Minghong Shen 2026"
+    "text": "Minghong Shen is a Postdoctoral Fellow at the Population Studies Center at the University of Pennsylvania. His research broadly focuses on early childhood development, education, urban studies, artificial intelligence, and computational social science. He received his PhD from the Hong Kong University of Science and Technology in 2025 and was a postdoctoral fellow at NYU Shanghai before joining Penn.\n\n\nCopyright© Minghong Shen 2026"
   },
   {
     "objectID": "books.html",
     "href": "books.html",
     "title": "Books",
     "section": "",
-    "text": "Claude Code 社会科学配置指南\nA configuration guide for social science researchers\nWritten in collaboration with Xinyang Tang, this book introduces social science researchers (using R, Stata, and Python) to Claude Code (or other agentic AI tools) — from installation and daily use to advanced topics like sub-agents, MCP servers, and hooks. The book is written in Chinese.\n\n\ntidyverse 入门\nAn introduction to tidyverse\nThis book is a work in progress. Unlike traditional textbooks, this book classifies the functions in the tidyverse as well as statart and explains them in a systematic way. The book is written in Chinese.\n\n\n\n\nCopyright© Minghong Shen 2026"
-  },
-  {
-    "objectID": "chinese.html",
-    "href": "chinese.html",
-    "title": "沈明宏",
-    "section": "",
-    "text": "沈明宏现任宾夕法尼亚大学人口研究中心博士后研究员。他的研究主要关注儿童早期发展、教育、城市研究和计算社会科学。他于2025年获得香港科技大学博士学位，在加入宾夕法尼亚大学之前，曾任上海纽约大学博士后研究员。\n\n\nCopyright© Minghong Shen 2026"
+    "text": "Stata to R Reference / Stata 转 R 参考手册\nA searchable bilingual reference for Stata users working in R\nBrowse Stata–R comparisons by subject, command or R package. English and Chinese editions share the same examples, with a language switch on each chapter. The reference accompanies tidystata and is separate from the introductory textbook.\n\n\nClaude Code 社会科学配置指南\nA configuration guide for social science researchers\nWritten in collaboration with Xinyang Tang, this book introduces social science researchers (using R, Stata, and Python) to Claude Code (or other agentic AI tools) — from installation and daily use to advanced topics like sub-agents, MCP servers, and hooks. The book is written in Chinese.\n\n\ntidyverse 入门\nAn introduction to tidyverse\nThis book is a work in progress. Unlike traditional textbooks, this book classifies the functions in the tidyverse as well as tidystata and explains them in a systematic way. The book is written in Chinese.\n\n\n\n\nCopyright© Minghong Shen 2026"
   },
   {
     "objectID": "research.html",
@@ -60,13 +53,13 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "This R package includes some Stata-inspired functions:\n\ntab() returns a data frame of the frequency table.\nfre() returns a more detailed frequency table.\nsumm() returns a data frame of the summary statistics. \nrow_mean(), row_sum(), etc. generate variables based on row-wise operations.\n\nNote: This package will probably be substantially updated and published to CRAN by this June."
+    "text": "Stata to R Reference / Stata 转 R 参考手册\nA searchable bilingual reference for Stata users working in R\nBrowse Stata–R comparisons by subject, command or R package. English and Chinese editions share the same examples, with a language switch on each chapter. The reference accompanies tidystata and is separate from the introductory textbook."
   },
   {
-    "objectID": "software.html#statart",
-    "href": "software.html#statart",
+    "objectID": "software.html#tidystata",
+    "href": "software.html#tidystata",
     "title": "Software",
-    "section": "",
-    "text": "This R package includes some Stata-inspired functions:\n\ntab() returns a data frame of the frequency table.\nfre() returns a more detailed frequency table.\nsumm() returns a data frame of the summary statistics. \nrow_mean(), row_sum(), etc. generate variables based on row-wise operations.\n\nNote: This package will probably be substantially updated and published to CRAN by this June."
+    "section": "tidystata",
+    "text": "tidystata\n\nThis R package (formerly statart) combines Stata-inspired features with tidyverse-style operations for exploring and preparing data:\n\ntab() and fre() return frequency tables as data frames.\nsumm() and tabstat() return summary statistics.\ncodebook(), variables(), misstable(), and pwcorr() inspect variables, missing values, and correlations.\nisid(), assert(), and s_merge() check keys and merge data.\nRow calculations, std(), as_dummy(), panel lags, and binning help prepare variables.\nfindit() gives the R equivalent of a Stata command.\n\nComing from Stata? See Coming from Stata. Install the development version with pak::pak(\"socimh/tidystata\")."
   }
 ]
