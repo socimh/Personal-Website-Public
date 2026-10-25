@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-labelledby="title desc">
+<title id="title">四个相关的研究集合</title>
+<desc id="desc">AI 与 CSS 是第四个研究集合，其大圆包围儿童发展、教育和气候三个相互交叉的小圆。大圆中小圆以外的区域表示独立的 AI 与 CSS 研究。</desc>
+<defs><radialGradient id="atmosphere" cx="50%" cy="42%" r="62%"><stop offset="0%" stop-color="#f8faff"/><stop offset="100%" stop-color="#e7edf7"/></radialGradient></defs>
+<circle cx="600" cy="430" r="405" fill="url(#atmosphere)" stroke="#9bacc7" stroke-opacity="0.72" stroke-width="2.2" aria-label="AI and Computational Social Science"/>
+<circle cx="470" cy="300" r="185" fill="#a5bfdf" fill-opacity="0.56" stroke="#466a9a" stroke-opacity="0.68" stroke-width="2" aria-label="儿童发展"/>
+<circle cx="730" cy="300" r="185" fill="#a6cfcc" fill-opacity="0.56" stroke="#40797c" stroke-opacity="0.68" stroke-width="2" aria-label="教育"/>
+<circle cx="600" cy="485" r="185" fill="#d9dbb4" fill-opacity="0.56" stroke="#7b824a" stroke-opacity="0.68" stroke-width="2" aria-label="气候"/>
+<g fill="#24364b" font-family="KaiTi, STKaiti, Microsoft YaHei, serif" text-anchor="middle">
+<text x="430" y="306" font-size="36">儿童发展</text>
+<text x="775" y="306" font-size="36">教育</text>
+<text x="600" y="535" font-size="36">气候</text>
+</g>
+<text x="600" y="762" text-anchor="middle" fill="#3d557a" font-family="KaiTi, STKaiti, Microsoft YaHei, serif" font-size="36">AI 与 CSS</text>
+</svg>
