@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="650" viewBox="0 0 600 650" role="img" aria-labelledby="title desc">
+<title id="title">Four connected research sets</title>
+<desc id="desc">Four conceptual research sets. An atmospheric outer circle is AI and Computational Social Science (AI and CSS). It contains three overlapping circles: Child Development, Education, and Climate. Its open region outside the inner circles represents standalone AI and CSS research. Areas are not proportional to project counts.</desc>
+<defs><radialGradient id="atmosphere" cx="50%" cy="42%" r="62%"><stop offset="0%" stop-color="#f8faff"/><stop offset="100%" stop-color="#e7edf7"/></radialGradient></defs>
+<circle cx="300" cy="325" r="290" fill="url(#atmosphere)" stroke="#9bacc7" stroke-opacity="0.72" stroke-width="2.2" aria-label="AI and Computational Social Science"/>
+<circle cx="215" cy="225" r="140" fill="#a5bfdf" fill-opacity="0.56" stroke="#466a9a" stroke-opacity="0.68" stroke-width="2" aria-label="Child Development"/>
+<circle cx="385" cy="225" r="140" fill="#a6cfcc" fill-opacity="0.56" stroke="#40797c" stroke-opacity="0.68" stroke-width="2" aria-label="Education"/>
+<circle cx="300" cy="360" r="140" fill="#d9dbb4" fill-opacity="0.56" stroke="#7b824a" stroke-opacity="0.68" stroke-width="2" aria-label="Climate"/>
+<g fill="#24364b" font-family="Georgia, Cambria, serif" text-anchor="middle">
+<text x="185" y="190" font-size="26">Child</text>
+<text x="185" y="222" font-size="26">Development</text>
+<text x="415" y="222" font-size="26">Education</text>
+<text x="300" y="414" font-size="26">Climate</text>
+</g>
+<text x="300" y="565" text-anchor="middle" fill="#3d557a" font-family="Georgia, Cambria, serif" font-size="26">AI and CSS</text>
+</svg>

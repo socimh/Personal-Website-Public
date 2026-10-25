@@ -32,7 +32,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Gender and Early Childhood Development (ECD)\nInequalities in ECD\nChildcare Institutions and ECD\nPublic Space and ECD\nUrban Vitality\nCultural Infrastructure and Mental Health\nFamily Planning Policies"
+    "text": "My research spans Child Development, Education, Climate, AI, and Computational Social Science."
   },
   {
     "objectID": "research.html#working-papers",
@@ -61,5 +61,47 @@
     "title": "Software",
     "section": "tidystata",
     "text": "tidystata\n\nThis R package (formerly statart) combines Stata-inspired features with tidyverse-style operations for exploring and preparing data:\n\ntab() and fre() return frequency tables as data frames.\nsumm() and tabstat() return summary statistics.\ncodebook(), variables(), misstable(), and pwcorr() inspect variables, missing values, and correlations.\nisid(), assert(), and s_merge() check keys and merge data.\nRow calculations, std(), as_dummy(), panel lags, and binning help prepare variables.\nfindit() gives the R equivalent of a Stata command.\n\nComing from Stata? See Coming from Stata. Install the development version with pak::pak(\"socimh/tidystata\")."
+  },
+  {
+    "objectID": "research.html#research-areas",
+    "href": "research.html#research-areas",
+    "title": "Research",
+    "section": "Research Areas",
+    "text": "Research Areas"
+  },
+  {
+    "objectID": "research.html#child-development",
+    "href": "research.html#child-development",
+    "title": "Research",
+    "section": "Child Development and Educational Inequality",
+    "text": "Child Development and Educational Inequality\nI examine socioeconomic and gender inequalities in children’s early development, with attention to family relationships and the organization of early education.\n\n\nSocioeconomic status and inequalities in early development of non-cognitive skills: Evidence from China. Published, 2026\nSocioeconomic Gaps in Early Childhood Development in China: A Generalized Decomposition. Revise and resubmit\nThe Granddaughter Penalty: Grandparental Lineage and Gendered Gaps in Early Social-Emotional Development in Urban China. Under review\nGender Differentials in Early Childhood Development. Working paper\nKindergarten Segregation and Early Childhood Development in China. Work in progress"
+  },
+  {
+    "objectID": "research.html#climate-development",
+    "href": "research.html#climate-development",
+    "title": "Research",
+    "section": "Climate and Child Development",
+    "text": "Climate and Child Development\nThis work connects climate and environmental exposures with early development. I study disparities in children’s heat exposure and how families adapt to early-life environmental conditions.\n\n\nEarly-Life Environmental Conditions and Child Development: Socioeconomic Disparities in Exposures and Adaptations among Families with Young Children. Working paper\nEarly Life Heat Exposure and Child Development: Evidence from China. Work in progress\nInequality in Early Children’s Heat Exposure. Work in progress"
+  },
+  {
+    "objectID": "research.html#urban-wellbeing",
+    "href": "research.html#urban-wellbeing",
+    "title": "Research",
+    "section": "Urban Life and Wellbeing",
+    "text": "Urban Life and Wellbeing\nI investigate how neighborhoods shape social life and wellbeing, from urban vitality and collective efficacy to cultural infrastructure and public open space.\n\n\nDecomposing Urban Vitality: Neighborhood Attractiveness, Neighborhood Engagement, and Collective Efficacy in Shanghai. Revise and resubmit\nNeighborhood Cultural Infrastructure and Late-Life Mental Health: Evidence from Hong Kong. Under review\nBeyond Density and Diversity: Locality and the Dual Dimensions of Urban Vitality in Shanghai. Working paper\nPublic Open Space and Early Childhood Development in Hong Kong. Working paper"
+  },
+  {
+    "objectID": "research.html#family-health",
+    "href": "research.html#family-health",
+    "title": "Research",
+    "section": "Family, Population, and Health",
+    "text": "Family, Population, and Health\nThis strand examines family relationships and health across the life course, including intergenerational support, smoking and drinking, and physical activity after retirement.\n\n\nThe Quantity–Quality Trade-off in the Long Run: Number of Children and Intergenerational Support in China. Working paper\nSocioeconomic Differentials in Smoking and Drinking in China, 1991–2015. Work in progress\nRetirement and Physical Activity in Urban China. Work in progress"
+  },
+  {
+    "objectID": "research.html#ai-computational",
+    "href": "research.html#ai-computational",
+    "title": "Research",
+    "section": "AI and Computational Social Science",
+    "text": "AI and Computational Social Science\nI use computational approaches to study social structure, including the network organization of occupational skills. I also develop and teach practical approaches to AI-assisted research.\n\n\nThe Network Structure of Occupational Skills in Hong Kong. Work in progress\n\n\nRelated resources: Software and tools · Talks"
   }
 ]

@@ -32,7 +32,7 @@
     "href": "research.html",
     "title": "研究",
     "section": "",
-    "text": "性别与儿童早期发展\n儿童早期发展中的不平等\n托育机构与儿童早期发展\n公共空间与儿童早期发展\n城市活力\n文化基础设施与心理健康\n计划生育政策"
+    "text": "我的研究涵盖儿童发展、教育、气候、人工智能与计算社会科学。"
   },
   {
     "objectID": "research.html#工作论文",
@@ -61,5 +61,47 @@
     "title": "软件",
     "section": "tidystata",
     "text": "tidystata\n\n这个 R 包（原名 statart）将借鉴 Stata 的功能与 tidyverse 风格的操作相结合，用于探索和整理数据：\n\ntab() 和 fre() 以数据框形式返回频数表。\nsumm() 和 tabstat() 返回描述性统计量。\ncodebook()、variables()、misstable() 和 pwcorr() 用于查看变量、缺失值和相关系数。\nisid()、assert() 和 s_merge() 用于检查主键和合并数据。\n按行运算、std()、as_dummy()、面板滞后和分组等函数用于整理变量。\nfindit() 给出与 Stata 命令对应的 R 写法。\n\n熟悉 Stata？请阅读从 Stata 到 R。安装开发版：pak::pak(\"socimh/tidystata\")。"
+  },
+  {
+    "objectID": "research.html#研究领域",
+    "href": "research.html#研究领域",
+    "title": "研究",
+    "section": "研究领域",
+    "text": "研究领域"
+  },
+  {
+    "objectID": "research.html#child-development",
+    "href": "research.html#child-development",
+    "title": "研究",
+    "section": "儿童发展与教育不平等",
+    "text": "儿童发展与教育不平等\n我关注儿童早期发展中的社会经济差异与性别差异，考察家庭关系和早期教育的组织方式如何塑造这些不平等。\n\n\nSocioeconomic status and inequalities in early development of non-cognitive skills: Evidence from China. 已发表，2026\nSocioeconomic Gaps in Early Childhood Development in China: A Generalized Decomposition. 修改后重审\nThe Granddaughter Penalty: Grandparental Lineage and Gendered Gaps in Early Social-Emotional Development in Urban China. 在审\nGender Differentials in Early Childhood Development. 工作论文\nKindergarten Segregation and Early Childhood Development in China. 进行中"
+  },
+  {
+    "objectID": "research.html#climate-development",
+    "href": "research.html#climate-development",
+    "title": "研究",
+    "section": "气候与儿童发展",
+    "text": "气候与儿童发展\n这一研究方向将气候和环境暴露与儿童早期发展联系起来，关注儿童高温暴露的不平等，以及家庭如何适应儿童早期的环境条件。\n\n\nEarly-Life Environmental Conditions and Child Development: Socioeconomic Disparities in Exposures and Adaptations among Families with Young Children. 工作论文\nEarly Life Heat Exposure and Child Development: Evidence from China. 进行中\nInequality in Early Children’s Heat Exposure. 进行中"
+  },
+  {
+    "objectID": "research.html#urban-wellbeing",
+    "href": "research.html#urban-wellbeing",
+    "title": "研究",
+    "section": "城市生活与福祉",
+    "text": "城市生活与福祉\n我考察邻里环境如何塑造社会生活与福祉，研究议题包括城市活力、集体效能、文化基础设施和公共开放空间。\n\n\nDecomposing Urban Vitality: Neighborhood Attractiveness, Neighborhood Engagement, and Collective Efficacy in Shanghai. 修改后重审\nNeighborhood Cultural Infrastructure and Late-Life Mental Health: Evidence from Hong Kong. 在审\nBeyond Density and Diversity: Locality and the Dual Dimensions of Urban Vitality in Shanghai. 工作论文\nPublic Open Space and Early Childhood Development in Hong Kong. 工作论文"
+  },
+  {
+    "objectID": "research.html#family-health",
+    "href": "research.html#family-health",
+    "title": "研究",
+    "section": "家庭、人口与健康",
+    "text": "家庭、人口与健康\n这一研究方向考察生命历程中的家庭关系与健康，涵盖代际支持、吸烟与饮酒行为，以及退休后的身体活动。\n\n\nThe Quantity–Quality Trade-off in the Long Run: Number of Children and Intergenerational Support in China. 工作论文\nSocioeconomic Differentials in Smoking and Drinking in China, 1991–2015. 进行中\nRetirement and Physical Activity in Urban China. 进行中"
+  },
+  {
+    "objectID": "research.html#ai-computational",
+    "href": "research.html#ai-computational",
+    "title": "研究",
+    "section": "人工智能与计算社会科学",
+    "text": "人工智能与计算社会科学\n我运用计算方法研究社会结构，包括职业技能的网络组织方式，同时开发并讲授人工智能辅助研究的实践方法。\n\n\nThe Network Structure of Occupational Skills in Hong Kong. 进行中\n\n\n相关资源：软件与工具 · 学术报告"
   }
 ]
