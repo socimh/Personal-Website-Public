@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="650" viewBox="0 0 600 650" role="img" aria-labelledby="title desc">
 <title id="title">四个相关的研究集合</title>
-<desc id="desc">AI 与 CSS 是第四个研究集合，其大圆包围儿童发展、教育和气候三个相互交叉的小圆。大圆中小圆以外的区域表示独立的 AI 与 CSS 研究。</desc>
+<desc id="desc">人工智能与计算社会科学 是第四个研究集合，其大圆包围儿童发展、教育和气候三个相互交叉的小圆。大圆中小圆以外的区域表示独立的 人工智能与计算社会科学 研究。</desc>
 <defs><radialGradient id="atmosphere" cx="50%" cy="42%" r="62%"><stop offset="0%" stop-color="#f8faff"/><stop offset="100%" stop-color="#e7edf7"/></radialGradient></defs>
 <circle cx="300" cy="325" r="290" fill="url(#atmosphere)" stroke="#9bacc7" stroke-opacity="0.72" stroke-width="2.2" aria-label="AI and Computational Social Science"/>
 <circle cx="215" cy="225" r="140" fill="#a5bfdf" fill-opacity="0.56" stroke="#466a9a" stroke-opacity="0.68" stroke-width="2" aria-label="儿童发展"/>
@@ -11,5 +11,5 @@
 <text x="415" y="222" font-size="26">教育</text>
 <text x="300" y="414" font-size="26">气候</text>
 </g>
-<text x="300" y="565" text-anchor="middle" fill="#3d557a" font-family="KaiTi, STKaiti, Microsoft YaHei, serif" font-size="26">AI 与 CSS</text>
+<text x="300" y="565" text-anchor="middle" fill="#3d557a" font-family="KaiTi, STKaiti, Microsoft YaHei, serif" font-size="26">人工智能与计算社会科学</text>
 </svg>

@@ -4,7 +4,7 @@
     "href": "teaching.html",
     "title": "教学",
     "section": "",
-    "text": "R 语言 tidyverse 入门工作坊\n本工作坊面向几乎没有 R 语言基础（但有一定统计学基础）的学员，讲授如何使用 tidyverse 系列包进行数据处理与可视化的基础知识。\n\n\n\n\n版权© 沈明宏 2026"
+    "text": "面向社会科学研究者的 R 工作坊（RWSS）\n由四门课程组成的双语课程系列，通过实例与练习介绍 R 在社会科学研究中的应用。目前仍在编写，优先开发以下两门课程，回归分析与编程课程将在之后推出。\n社会科学中的数据准备面向初学者，介绍研究数据的整理、汇总与可视化。计算社会科学面向已有 R 与回归分析基础的读者，介绍计算方法在社会研究中的应用。\n全部课程材料将同一套内容汇集为连续阅读版本。目前为预览版，包含两个试教单元，其余单元展示课程规划。\n\n\n2024 年 R 语言 tidyverse 入门工作坊\n本工作坊以中文授课，吸引了 100 多位学员参与，面向有一定统计学基础的 R 初学者，介绍使用 tidyverse 进行数据整理与可视化的方法。原有学习材料仍可查阅。\n\n\n\n\n版权© 沈明宏 2026"
   },
   {
     "objectID": "slides.html",
@@ -18,7 +18,28 @@
     "href": "index.html",
     "title": "沈明宏",
     "section": "",
-    "text": "沈明宏现任宾夕法尼亚大学人口研究中心博士后研究员。他的研究主要关注儿童早期发展、教育、城市、人工智能和计算社会科学。他于2025年获得香港科技大学博士学位，在加入宾夕法尼亚大学之前，曾任上海纽约大学博士后研究员。\n\n\n版权© 沈明宏 2026"
+    "text": "电子邮件\n  \n  \n    \n     GitHub\n  \n\n      \n沈明宏现任宾夕法尼亚大学人口研究中心博士后研究员。他的研究主要关注儿童早期发展、教育、城市、人工智能和计算社会科学。他于2025年获得香港科技大学博士学位，在加入宾夕法尼亚大学之前，曾任上海纽约大学博士后研究员。他目前同时担任上海纽约大学应用社会经济研究中心（CASER）合作研究员。"
+  },
+  {
+    "objectID": "index.html#学术经历",
+    "href": "index.html#学术经历",
+    "title": "沈明宏",
+    "section": "学术经历",
+    "text": "学术经历\n\n\n工作经历\n\n2026 至今\n博士后研究员宾夕法尼亚大学人口研究中心\n\n\n2025–26\n社会科学博士后研究员上海纽约大学\n\n\n2025\n访问学者宾夕法尼亚大学人口研究中心\n\n\n2018–19\n社会科学研究助理香港科技大学\n\n\n\n教育背景\n\n2021–25\n城市治理与设计博士香港科技大学\n\n\n2019–21\n社会科学哲学硕士香港科技大学\n\n\n2017–18\n全球中国研究理学硕士香港科技大学\n\n\n2014–18\n社会工作学士（荣誉）社会学辅修，南京大学"
+  },
+  {
+    "objectID": "index.html#研究方向",
+    "href": "index.html#研究方向",
+    "title": "沈明宏",
+    "section": "研究方向",
+    "text": "研究方向\n探究家庭、制度与环境如何塑造不平等的人生机会。\n\n\n01\n儿童发展\n家庭、制度和邻里环境塑造的儿童发展中的社会经济与性别差异。\n\n\n02\n教育\n教育不平等、优绩主义与中国高考。\n\n\n03\n气候\n高温暴露及其影响的不平等。\n\n\n04\n人工智能与计算社会科学\n面向社会科学研究者的人工智能工具与计算方法。"
+  },
+  {
+    "objectID": "index.html#资源",
+    "href": "index.html#资源",
+    "title": "沈明宏",
+    "section": "资源",
+    "text": "资源\n面向社会科学研究者的 R、Stata 与 AI 工具开放资料。\n\n\n参考手册\nStata 转 R 参考手册\n41 章、近 1,800 组 Stata 与 R 代码对照，提供中英文版本。\n\n\nR 包\ntidystata\n结合 Stata 风格功能与 tidyverse 操作，用于数据探索与整理。\n\n\n书籍\ntidyverse 入门\n系统介绍 tidyverse 与 tidystata 的函数。\n\n\n指南\nClaude Code 社会科学配置指南\n为使用 R、Stata 和 Python 的研究者配置 Claude Code 等 AI 智能体工具。\n\n\n工作坊\n面向社会科学研究者的 R 工作坊\n双语系列课程，通过实例和练习介绍 R 在社会科学研究中的应用。\n\n\n学术报告\n幻灯片\n关于社会科学研究中的 AI 智能体和在 VS Code 中用 Copilot 写 Stata 的报告。\n\n\n全部书籍 · 软件 · 教学"
   },
   {
     "objectID": "books.html",
@@ -35,34 +56,6 @@
     "text": "我的研究涵盖儿童发展、教育、气候、人工智能与计算社会科学。"
   },
   {
-    "objectID": "research.html#工作论文",
-    "href": "research.html#工作论文",
-    "title": "研究",
-    "section": "",
-    "text": "性别与儿童早期发展\n儿童早期发展中的不平等\n托育机构与儿童早期发展\n公共空间与儿童早期发展\n城市活力\n文化基础设施与心理健康\n计划生育政策"
-  },
-  {
-    "objectID": "research.html#进行中的研究",
-    "href": "research.html#进行中的研究",
-    "title": "研究",
-    "section": "进行中的研究",
-    "text": "进行中的研究\n\n\n中国的高温暴露\n中国的空气污染\n高考\n健康生活方式\n智能体 AI 与社会科学\n机器学习应用"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "软件",
-    "section": "",
-    "text": "Stata 转 R 参考手册\n按主题、Stata 命令或 R 包查阅代码对照。中英文版本使用相同示例，每章均可切换语言。本手册配合 tidystata 使用，与入门教材分别维护。"
-  },
-  {
-    "objectID": "software.html#tidystata",
-    "href": "software.html#tidystata",
-    "title": "软件",
-    "section": "tidystata",
-    "text": "tidystata\n\n这个 R 包（原名 statart）将借鉴 Stata 的功能与 tidyverse 风格的操作相结合，用于探索和整理数据：\n\ntab() 和 fre() 以数据框形式返回频数表。\nsumm() 和 tabstat() 返回描述性统计量。\ncodebook()、variables()、misstable() 和 pwcorr() 用于查看变量、缺失值和相关系数。\nisid()、assert() 和 s_merge() 用于检查主键和合并数据。\n按行运算、std()、as_dummy()、面板滞后和分组等函数用于整理变量。\nfindit() 给出与 Stata 命令对应的 R 写法。\n\n熟悉 Stata？请阅读从 Stata 到 R。安装开发版：pak::pak(\"socimh/tidystata\")。"
-  },
-  {
     "objectID": "research.html#研究领域",
     "href": "research.html#研究领域",
     "title": "研究",
@@ -73,15 +66,22 @@
     "objectID": "research.html#child-development",
     "href": "research.html#child-development",
     "title": "研究",
-    "section": "儿童发展与教育不平等",
-    "text": "儿童发展与教育不平等\n我关注儿童早期发展中的社会经济差异与性别差异，考察家庭关系和早期教育的组织方式如何塑造这些不平等。\n\n\nSocioeconomic status and inequalities in early development of non-cognitive skills: Evidence from China. 已发表，2026\nSocioeconomic Gaps in Early Childhood Development in China: A Generalized Decomposition. 修改后重审\nThe Granddaughter Penalty: Grandparental Lineage and Gendered Gaps in Early Social-Emotional Development in Urban China. 在审\nGender Differentials in Early Childhood Development. 工作论文\nKindergarten Segregation and Early Childhood Development in China. 进行中"
+    "section": "儿童发展",
+    "text": "儿童发展\n我研究儿童发展中的社会经济差异与性别差异，考察家庭、制度和邻里环境如何塑造这些差异。\n\n\nSocioeconomic status and inequalities in early development of non-cognitive skills: Evidence from China. 已发表，2026\nSocioeconomic Gaps in Early Childhood Development in China: A Generalized Decomposition. 修改后重审\nThe Granddaughter Penalty: Grandparental Lineage and Gendered Gaps in Early Social-Emotional Development in Urban China. 在审\nGender Differentials in Early Childhood Development. 工作论文\nKindergarten Segregation and Early Childhood Development in China. 进行中"
+  },
+  {
+    "objectID": "research.html#education-meritocracy",
+    "href": "research.html#education-meritocracy",
+    "title": "研究",
+    "section": "教育、不平等与优绩主义",
+    "text": "教育、不平等与优绩主义\n我研究教育不平等、优绩主义与中国高考。"
   },
   {
     "objectID": "research.html#climate-development",
     "href": "research.html#climate-development",
     "title": "研究",
-    "section": "气候与儿童发展",
-    "text": "气候与儿童发展\n这一研究方向将气候和环境暴露与儿童早期发展联系起来，关注儿童高温暴露的不平等，以及家庭如何适应儿童早期的环境条件。\n\n\nEarly-Life Environmental Conditions and Child Development: Socioeconomic Disparities in Exposures and Adaptations among Families with Young Children. 工作论文\nEarly Life Heat Exposure and Child Development: Evidence from China. 进行中\nInequality in Early Children’s Heat Exposure. 进行中"
+    "section": "气候",
+    "text": "气候\n我研究高温暴露及其影响的不平等。\n\n\nEarly-Life Environmental Conditions and Child Development: Socioeconomic Disparities in Exposures and Adaptations among Families with Young Children. 工作论文\nEarly Life Heat Exposure and Child Development: Evidence from China. 进行中\nInequality in Early Children’s Heat Exposure. 进行中"
   },
   {
     "objectID": "research.html#urban-wellbeing",
@@ -102,6 +102,20 @@
     "href": "research.html#ai-computational",
     "title": "研究",
     "section": "人工智能与计算社会科学",
-    "text": "人工智能与计算社会科学\n我运用计算方法研究社会结构，包括职业技能的网络组织方式，同时开发并讲授人工智能辅助研究的实践方法。\n\n\nThe Network Structure of Occupational Skills in Hong Kong. 进行中\n\n\n相关资源：软件与工具 · 学术报告"
+    "text": "人工智能与计算社会科学\n我开发并讲授面向社会科学研究者的人工智能工具与计算方法。\n\n\nThe Network Structure of Occupational Skills in Hong Kong. 进行中\n\n\n相关资源：软件与工具 · 学术报告"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "软件",
+    "section": "",
+    "text": "Stata 转 R 参考手册\n按主题、Stata 命令或 R 包查阅代码对照。中英文版本使用相同示例，每章均可切换语言。本手册配合 tidystata 使用，与入门教材分别维护。"
+  },
+  {
+    "objectID": "software.html#tidystata",
+    "href": "software.html#tidystata",
+    "title": "软件",
+    "section": "tidystata",
+    "text": "tidystata\n\n这个 R 包（原名 statart）将借鉴 Stata 的功能与 tidyverse 风格的操作相结合，用于探索和整理数据：\n\ntab() 和 fre() 以数据框形式返回频数表。\nsumm() 和 tabstat() 返回描述性统计量。\ncodebook()、variables()、misstable() 和 pwcorr() 用于查看变量、缺失值和相关系数。\nisid()、assert() 和 s_merge() 用于检查主键和合并数据。\n按行运算、std()、as_dummy()、面板滞后和分组等函数用于整理变量。\nfindit() 给出与 Stata 命令对应的 R 写法。\n\n熟悉 Stata？请阅读从 Stata 到 R。安装开发版：pak::pak(\"socimh/tidystata\")。"
   }
 ]

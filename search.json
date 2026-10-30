@@ -4,7 +4,7 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "R 语言 tidyverse 入门工作坊\nAn introduction to R and the tidyverse for beginners\nThis workshop is designed for those who have little to no experience with R (but with some experience in statistics), and covers the basics of data manipulation and visualization using the tidyverse packages. The workshop is taught in Chinese.\n\n\n\n\nCopyright© Minghong Shen 2026"
+    "text": "R Workshops for Social Scientists (RWSS)\nA bilingual series of four courses introducing R for social science research through practical examples and exercises. The series is in development, with initial work focused on the two courses below; Regression and Programming will follow.\nData Preparation in Social Science introduces beginners to preparing, summarizing and visualizing research data. Computational Social Science explores computational approaches to social research for readers with R and regression experience.\nThe All course materials view brings the same content together for continuous reading. This preview currently contains two pilot lessons; other modules show the planned curriculum.\n\n\n2024 R and tidyverse Workshop\nTaught in Chinese to over 100 participants, this workshop introduced R beginners with some statistics background to data preparation and visualization using the tidyverse. The original materials remain available.\n\n\n\n\nCopyright© Minghong Shen 2026"
   },
   {
     "objectID": "slides.html",
@@ -18,7 +18,28 @@
     "href": "index.html",
     "title": "Minghong Shen 沈明宏",
     "section": "",
-    "text": "Minghong Shen is a Postdoctoral Fellow at the Population Studies Center at the University of Pennsylvania. His research broadly focuses on early childhood development, education, urban studies, artificial intelligence, and computational social science. He received his PhD from the Hong Kong University of Science and Technology in 2025 and was a postdoctoral fellow at NYU Shanghai before joining Penn.\n\n\nCopyright© Minghong Shen 2026"
+    "text": "Email\n  \n  \n    \n     GitHub\n  \n\n      \nMinghong Shen is a Postdoctoral Fellow at the Population Studies Center at the University of Pennsylvania. His research broadly focuses on early childhood development, education, urban studies, artificial intelligence, and computational social science. He received his PhD from the Hong Kong University of Science and Technology in 2025 and was a postdoctoral fellow at NYU Shanghai before joining Penn. He is also a Research Collaborator at the Center for Applied Social and Economic Research (CASER), NYU Shanghai."
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Minghong Shen 沈明宏",
+    "section": "Background",
+    "text": "Background\n\n\nAppointments\n\n2026–present\nPostdoctoral FellowPopulation Studies Center, University of Pennsylvania\n\n\n2025–26\nPostdoctoral Fellow in Social ScienceNew York University Shanghai\n\n\n2025\nVisiting ScholarPopulation Studies Center, University of Pennsylvania\n\n\n2018–19\nResearch Assistant in Social ScienceHong Kong University of Science and Technology\n\n\n\nEducation\n\n2021–25\nPhD, Urban Governance and DesignHong Kong University of Science and Technology\n\n\n2019–21\nMPhil, Social ScienceHong Kong University of Science and Technology\n\n\n2017–18\nMSc, Global China StudiesHong Kong University of Science and Technology\n\n\n2014–18\nBA, Social Work (with honours)Minor in Sociology, Nanjing University"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Minghong Shen 沈明宏",
+    "section": "Research Interests",
+    "text": "Research Interests\nUnderstanding how families, institutions, and environments shape unequal life chances.\n\n\n01\nChild Development\nSocioeconomic and gender disparities, shaped by families, institutions, and neighborhoods.\n\n\n02\nEducation\nInequality, meritocracy, and China’s National College Entrance Examination (Gaokao).\n\n\n03\nClimate\nInequalities in heat exposure and heat effects.\n\n\n04\nAI and CSS\nAI tools and computational methods for social scientists."
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Minghong Shen 沈明宏",
+    "section": "Resources",
+    "text": "Resources\nOpen materials for social scientists working with R, Stata, and AI tools.\n\n\nReference book\nStata to R Reference\nNearly 1,800 paired Stata–R examples across 41 chapters, in English and Chinese.\n\n\nR package\ntidystata\nStata-inspired functions with tidyverse-style operations for exploring and preparing data.\n\n\nBook · Chinese\ntidyverse 入门\nA systematic introduction to the tidyverse and tidystata functions.\n\n\nGuide · Chinese\nClaude Code 社会科学配置指南\nSetting up Claude Code and other agentic AI tools for research in R, Stata, and Python.\n\n\nWorkshop\nR Workshops for Social Scientists\nA bilingual course series on R for social science research, with practical exercises.\n\n\nTalks\nSlides\nTalks on AI agents in social science research and writing Stata with Copilot.\n\n\nAll books · Software · Teaching"
   },
   {
     "objectID": "books.html",
@@ -35,34 +56,6 @@
     "text": "My research spans Child Development, Education, Climate, AI, and Computational Social Science."
   },
   {
-    "objectID": "research.html#working-papers",
-    "href": "research.html#working-papers",
-    "title": "Research",
-    "section": "",
-    "text": "Gender and Early Childhood Development (ECD)\nInequalities in ECD\nChildcare Institutions and ECD\nPublic Space and ECD\nUrban Vitality\nCultural Infrastructure and Mental Health\nFamily Planning Policies"
-  },
-  {
-    "objectID": "research.html#work-in-progress",
-    "href": "research.html#work-in-progress",
-    "title": "Research",
-    "section": "Work in Progress",
-    "text": "Work in Progress\n\n\nHeat Exposure in China\nAir Pollution in China\nChina’s National College Entrance Exam (Gaokao)\nHealthy Lifestyles\nAgentic AI and Social Sciences\nMachine Learning Applications"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
-    "section": "",
-    "text": "Stata to R Reference / Stata 转 R 参考手册\nA searchable bilingual reference for Stata users working in R\nBrowse Stata–R comparisons by subject, command or R package. English and Chinese editions share the same examples, with a language switch on each chapter. The reference accompanies tidystata and is separate from the introductory textbook."
-  },
-  {
-    "objectID": "software.html#tidystata",
-    "href": "software.html#tidystata",
-    "title": "Software",
-    "section": "tidystata",
-    "text": "tidystata\n\nThis R package (formerly statart) combines Stata-inspired features with tidyverse-style operations for exploring and preparing data:\n\ntab() and fre() return frequency tables as data frames.\nsumm() and tabstat() return summary statistics.\ncodebook(), variables(), misstable(), and pwcorr() inspect variables, missing values, and correlations.\nisid(), assert(), and s_merge() check keys and merge data.\nRow calculations, std(), as_dummy(), panel lags, and binning help prepare variables.\nfindit() gives the R equivalent of a Stata command.\n\nComing from Stata? See Coming from Stata. Install the development version with pak::pak(\"socimh/tidystata\")."
-  },
-  {
     "objectID": "research.html#research-areas",
     "href": "research.html#research-areas",
     "title": "Research",
@@ -73,15 +66,22 @@
     "objectID": "research.html#child-development",
     "href": "research.html#child-development",
     "title": "Research",
-    "section": "Child Development and Educational Inequality",
-    "text": "Child Development and Educational Inequality\nI examine socioeconomic and gender inequalities in children’s early development, with attention to family relationships and the organization of early education.\n\n\nSocioeconomic status and inequalities in early development of non-cognitive skills: Evidence from China. Published, 2026\nSocioeconomic Gaps in Early Childhood Development in China: A Generalized Decomposition. Revise and resubmit\nThe Granddaughter Penalty: Grandparental Lineage and Gendered Gaps in Early Social-Emotional Development in Urban China. Under review\nGender Differentials in Early Childhood Development. Working paper\nKindergarten Segregation and Early Childhood Development in China. Work in progress"
+    "section": "Child Development",
+    "text": "Child Development\nI examine socioeconomic and gender disparities in child development and how families, institutions, and neighborhoods shape these disparities.\n\n\nSocioeconomic status and inequalities in early development of non-cognitive skills: Evidence from China. Published, 2026\nSocioeconomic Gaps in Early Childhood Development in China: A Generalized Decomposition. Revise and resubmit\nThe Granddaughter Penalty: Grandparental Lineage and Gendered Gaps in Early Social-Emotional Development in Urban China. Under review\nGender Differentials in Early Childhood Development. Working paper\nKindergarten Segregation and Early Childhood Development in China. Work in progress"
+  },
+  {
+    "objectID": "research.html#education-meritocracy",
+    "href": "research.html#education-meritocracy",
+    "title": "Research",
+    "section": "Education, Inequality, and Meritocracy",
+    "text": "Education, Inequality, and Meritocracy\nI study educational inequality, meritocracy, and China’s National College Entrance Examination (Gaokao)."
   },
   {
     "objectID": "research.html#climate-development",
     "href": "research.html#climate-development",
     "title": "Research",
-    "section": "Climate and Child Development",
-    "text": "Climate and Child Development\nThis work connects climate and environmental exposures with early development. I study disparities in children’s heat exposure and how families adapt to early-life environmental conditions.\n\n\nEarly-Life Environmental Conditions and Child Development: Socioeconomic Disparities in Exposures and Adaptations among Families with Young Children. Working paper\nEarly Life Heat Exposure and Child Development: Evidence from China. Work in progress\nInequality in Early Children’s Heat Exposure. Work in progress"
+    "section": "Climate",
+    "text": "Climate\nI study inequalities in heat exposure and heat effects.\n\n\nEarly-Life Environmental Conditions and Child Development: Socioeconomic Disparities in Exposures and Adaptations among Families with Young Children. Working paper\nEarly Life Heat Exposure and Child Development: Evidence from China. Work in progress\nInequality in Early Children’s Heat Exposure. Work in progress"
   },
   {
     "objectID": "research.html#urban-wellbeing",
@@ -102,6 +102,20 @@
     "href": "research.html#ai-computational",
     "title": "Research",
     "section": "AI and Computational Social Science",
-    "text": "AI and Computational Social Science\nI use computational approaches to study social structure, including the network organization of occupational skills. I also develop and teach practical approaches to AI-assisted research.\n\n\nThe Network Structure of Occupational Skills in Hong Kong. Work in progress\n\n\nRelated resources: Software and tools · Talks"
+    "text": "AI and Computational Social Science\nI develop and teach AI tools and computational methods for social scientists.\n\n\nThe Network Structure of Occupational Skills in Hong Kong. Work in progress\n\n\nRelated resources: Software and tools · Talks"
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Stata to R Reference / Stata 转 R 参考手册\nA searchable bilingual reference for Stata users working in R\nBrowse Stata–R comparisons by subject, command or R package. English and Chinese editions share the same examples, with a language switch on each chapter. The reference accompanies tidystata and is separate from the introductory textbook."
+  },
+  {
+    "objectID": "software.html#tidystata",
+    "href": "software.html#tidystata",
+    "title": "Software",
+    "section": "tidystata",
+    "text": "tidystata\n\nThis R package (formerly statart) combines Stata-inspired features with tidyverse-style operations for exploring and preparing data:\n\ntab() and fre() return frequency tables as data frames.\nsumm() and tabstat() return summary statistics.\ncodebook(), variables(), misstable(), and pwcorr() inspect variables, missing values, and correlations.\nisid(), assert(), and s_merge() check keys and merge data.\nRow calculations, std(), as_dummy(), panel lags, and binning help prepare variables.\nfindit() gives the R equivalent of a Stata command.\n\nComing from Stata? See Coming from Stata. Install the development version with pak::pak(\"socimh/tidystata\")."
   }
 ]
