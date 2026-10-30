@@ -40,7 +40,7 @@ def assemble(public_root, private_root, output):
     public_names.extend(path.name for path in public_root.glob("*.html"))
     for name in public_names:
         copy(public_root / name, output / name)
-    for name in ("cc-guide", "slides", "stata-to-r"):
+    for name in ("cc-guide", "slides", "stata-to-r", "workshops"):
         copy(private_root / "docs" / name, output / name)
 
     missing = []

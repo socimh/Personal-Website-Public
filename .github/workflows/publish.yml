@@ -36,6 +36,7 @@ jobs:
             docs/cc-guide
             docs/slides
             docs/stata-to-r
+            docs/workshops
       - name: Assemble and validate website
         run: >-
           python3 .github/scripts/assemble_site.py
