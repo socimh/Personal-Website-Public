@@ -39,14 +39,14 @@
     "href": "index.html#资源",
     "title": "沈明宏",
     "section": "资源",
-    "text": "资源\n面向社会科学研究者的 R、Stata 与 AI 工具开放资料。\n\n\n参考手册\nStata 转 R 参考手册\n41 章、近 1,800 组 Stata 与 R 代码对照，提供中英文版本。\n\n\nR 包\ntidystata\n结合 Stata 风格功能与 tidyverse 操作，用于数据探索与整理。\n\n\n教材 · 英文 · 编写中\nR for Social Science\n通过社会科学数据学习 R、tidystata 与 tidyverse，涵盖数据整理、可视化和回归分析。\n\n\n指南\nClaude Code 社会科学配置指南\n为使用 R、Stata 和 Python 的研究者配置 Claude Code 等 AI 智能体工具。\n\n\n工作坊\n面向社会科学研究者的 R 工作坊\n双语系列课程，通过实例和练习介绍 R 在社会科学研究中的应用。\n\n\n学术报告\n幻灯片\n关于社会科学研究中的 AI 智能体和在 VS Code 中用 Copilot 写 Stata 的报告。\n\n\n全部书籍 · 软件 · 教学"
+    "text": "资源\n面向社会科学研究者的 R、Stata 与 AI 工具开放资料。\n\n\n参考手册\nStata 转 R 参考手册\n41 章、近 1,800 组 Stata 与 R 代码对照，提供中英文版本。\n\n\nR 包\ntidystata\n结合 Stata 风格功能与 tidyverse 操作，用于数据探索与整理。\n\n\n教材 · 英文 · 编写中\nR for Social Science\n28 章英文教材，通过社会科学数据介绍 R、tidystata 与 tidyverse，涵盖数据整理、可视化和回归分析。\n\n\n指南\nClaude Code 社会科学配置指南\n为使用 R、Stata 和 Python 的研究者配置 Claude Code 等 AI 智能体工具。\n\n\n工作坊\n面向社会科学研究者的 R 工作坊\n双语系列课程，通过实例和练习介绍 R 在社会科学研究中的应用。\n\n\n学术报告\n幻灯片\n关于社会科学研究中的 AI 智能体和在 VS Code 中用 Copilot 写 Stata 的报告。\n\n\n全部书籍 · 软件 · 教学"
   },
   {
     "objectID": "books.html",
     "href": "books.html",
     "title": "书籍",
     "section": "",
-    "text": "编写中\nR for Social Science\n面向社会科学研究的英文 R 教材\n本书面向学生与研究者，无需编程基础，通过社会科学数据介绍 R、tidystata 与 tidyverse，涵盖数据整理、探索、可视化和回归分析，并配有练习与参考答案。\n这是目前的新版教材。早期中文教材 tidyverse 入门仍可作为旧版参考资料查阅。\n\n\n\nStata 转 R 参考手册\nStata to R Reference\n一本面向从 Stata 转向 R 的研究者的技术参考书，提供中英文版本。全书通过 41 个章节、近 1,800 组对照示例，将熟悉的 Stata 操作与 R 的实现方式联系起来，帮助读者在已有经验的基础上逐步掌握新的工作方式。\n本书可作为日常研究工作的案头参考，覆盖从数据整理到较复杂分析的研究过程。读者既可围绕一个主题深入阅读，也可在遇到具体问题时查阅相应示例。\n\n\nClaude Code 社会科学配置指南\n本书与唐欣阳合作撰写，面向使用 R、Stata 和 Python 的社会科学研究者，介绍 Claude Code（及其他智能体 AI 工具）：从安装和日常使用，到子智能体、MCP 服务器和钩子（hooks）等进阶主题。\n\n\n\n\n版权© 沈明宏 2026"
+    "text": "编写中\nR for Social Science\n面向社会科学研究的英文 R 教材\n本书面向学生与研究者，无需编程基础，通过社会科学数据介绍 R、tidystata 与 tidyverse，涵盖数据整理、探索、可视化和回归分析，并配有练习与参考答案。\n目前的开发版本包含 28 章、前言，以及美国综合社会调查（GSS）数据附录。早期中文教材 tidyverse 入门仍可作为旧版参考资料查阅。\n\n\n\nStata 转 R 参考手册\nStata to R Reference\n一本面向从 Stata 转向 R 的研究者的技术参考书，提供中英文版本。全书通过 41 个章节、近 1,800 组对照示例，将熟悉的 Stata 操作与 R 的实现方式联系起来，帮助读者在已有经验的基础上逐步掌握新的工作方式。\n本书可作为日常研究工作的案头参考，覆盖从数据整理到较复杂分析的研究过程。读者既可围绕一个主题深入阅读，也可在遇到具体问题时查阅相应示例。\n\n\nClaude Code 社会科学配置指南\n本书与唐欣阳合作撰写，面向使用 R、Stata 和 Python 的社会科学研究者，介绍 Claude Code（及其他智能体 AI 工具）：从安装和日常使用，到子智能体、MCP 服务器和钩子（hooks）等进阶主题。\n\n\n\n\n版权© 沈明宏 2026"
   },
   {
     "objectID": "research.html",
